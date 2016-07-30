@@ -224,7 +224,7 @@ hist(steps1$steps, main = "Histogram of Steps", xlab = "Steps", ylab = "Count")
 abline(v = mean(steps1$steps), col = "blue", lwd = 2)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+![](figureunnamed-chunk-4-1.png)<!-- -->
 
 ## What is the average daily activity pattern?
 
