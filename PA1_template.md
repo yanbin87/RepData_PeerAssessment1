@@ -224,7 +224,7 @@ hist(steps1$steps, main = "Histogram of Steps", xlab = "Steps", ylab = "Count")
 abline(v = mean(steps1$steps), col = "blue", lwd = 2)
 ```
 
-![](figure/unnamed-chunk-2-1.png)<!-- -->
+![](figure/unnamed-chunk-2-1.png)
 
 ## What is the average daily activity pattern?
 
@@ -259,7 +259,7 @@ interv1 <- act %>%
 plot(interv1, type = 'l')
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](figure/unnamed-chunk-6-1.png)
 
 ### Which 5-minutes interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -349,7 +349,7 @@ hist(steps2$steps, main = "Histogram of Steps", sub = "Missing Values replaced w
 abline(v = mean(steps2$steps), col = "blue", lwd = 2)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+![](figure/unnamed-chunk-12-1.png)
 
 #### Estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number o steps?
 
@@ -446,4 +446,4 @@ library(ggplot2)
 ggplot(actAgg3, aes(interval, steps3)) + geom_line(color = "blue") + facet_wrap(~d_type, ncol = 1)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-16-1.png)<!-- -->
+![](figure/unnamed-chunk-16-1.png)
